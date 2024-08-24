@@ -265,7 +265,7 @@ body {
 .sub-title1{
     text-align: center;
     font-size: 60px;
-    padding-top: 40px;
+    padding-top: 75px;
     
    
 }
@@ -345,7 +345,6 @@ body {
 .service-list div:hover{
     transform: translateY(-10px);
 }
-
 
 section{
     display: flex;
@@ -581,15 +580,15 @@ section{
 
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(299px, 1fr));
     align-items: center;
     gap: 2.5rem;
     margin-bottom: 10%;
-    padding: 70px;
+    padding: 120px;
     
 }
 .row{
-    left: 25%;
+    left: 55%;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -599,6 +598,7 @@ section{
 .row img{
     
     width: 100%;
+   
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
@@ -617,27 +617,28 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 40px;
+    padding: 0 10px;
     transition: height 0.5s;
 }
 .layer h5{
-    color: #000;
+    color: #171f21;
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .layer p{
     color: #000000;
-    font-size: 1rem;
-    line-height: 1.8;
+    font-size: 0.8rem;
+    line-height: 1.4;
 }
 .layer i{
     color: #ff004f;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
     background: white;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
