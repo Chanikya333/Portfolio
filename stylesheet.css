@@ -729,24 +729,22 @@ form textarea{
 }
 .contact-form form .send{
     display: inline-block;
-    padding: 14px 60px;
+    padding: 10px 60px;
     background: #0ef;
     border-radius: 40px;
     font-size: 18px;
     color: #081b29;
     letter-spacing: 1px;
     font-weight: 600;
-    margin-top: 30px;
+    margin-top: 20px;
     opacity: 0;
-    animation: slideTop 1s ease forwards ;
-    animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-    0 0 25px #0ef;
+      animation: slideTop 1s ease forwards ;
+    animation-delay: calc(.2s * var(--i));
+    box-shadow: 0 0 5px #0ef;
 }
 .contact-form form .send:hover {
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 10px cyan;
+    
 }
 .last-text p{
     width: 100%;
